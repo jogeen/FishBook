@@ -1,0 +1,45 @@
+<idea-plugin>
+    <id>icu.jogeen.fishbook.id</id>
+    <name>FishBook</name>
+    <version>1.1</version>
+    <vendor email="jogeen@qq.com" url="http://www.jogeen.icu">jogeen</vendor>
+
+    <description><![CDATA[
+      It allows you to view the local novel text
+      and get the reading experience on the reader<br>
+      <em>touch fish</em>
+    ]]></description>
+
+    <change-notes><![CDATA[
+     The first edition only supports book content in TXT format<br>
+      <em>txt </em>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products   -->
+    <depends>com.intellij.modules.lang</depends>
+    
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <projectConfigurable groupId="tools" displayName="FishBook Config" id="fish.id"
+                             instance="icu.jogeen.fishbook.factory.SettingConfigFactory"/>
+        <applicationService serviceInterface="icu.jogeen.fishbook.service.PersistentState"
+                            serviceImplementation="icu.jogeen.fishbook.service.PersistentState"/>
+
+        <toolWindow id="FishBook" secondary="true" anchor="right"
+                    factoryClass="icu.jogeen.fishbook.factory.ReadWindowFactory">
+
+        </toolWindow>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>
