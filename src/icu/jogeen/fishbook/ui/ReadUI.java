@@ -10,6 +10,8 @@ import icu.jogeen.fishbook.service.PersistentState;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
 import java.util.List;
 
 /**
@@ -79,6 +81,14 @@ public class ReadUI {
                 String text = tfPageNum.getText();
                 int pageNnum = Integer.parseInt(text);
                 turnPage(pageNnum);
+            }
+        });
+        contentPanel.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                super.keyPressed(e);
+                int keyCode = e.getKeyCode();
+                System.out.println(keyCode);
             }
         });
     }
