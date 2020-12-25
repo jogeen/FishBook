@@ -83,12 +83,16 @@ public class ReadUI {
                 turnPage(pageNnum);
             }
         });
-        contentPanel.addKeyListener(new KeyAdapter() {
+        txContetnt.addKeyListener(new KeyAdapter() {
             @Override
             public void keyPressed(KeyEvent e) {
                 super.keyPressed(e);
                 int keyCode = e.getKeyCode();
-                System.out.println(keyCode);
+                if(37==keyCode){
+                    turnPage(persistentState.getPageNum() - 1);
+                }else if(39==keyCode){
+                    turnPage(persistentState.getPageNum() + 1);
+                }
             }
         });
     }

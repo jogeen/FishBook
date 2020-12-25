@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fe9f07f-0e81-4405-8ac9-68af922f1f10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/icu/jogeen/fishbook/ui/ReadUI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/icu/jogeen/fishbook/ui/ReadUI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icu/jogeen/fishbook/ui/ReadUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/icu/jogeen/fishbook/ui/ReadUI.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,6 +47,7 @@
   <component name="ProjectId" id="1dl5zZeEONI2fmKTwajSKqoAyqZ" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="39" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="255" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -53,7 +55,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/icu/jogeen/fishbook/service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -124,7 +126,20 @@
       <workItem from="1594112428260" duration="1615000" />
       <workItem from="1594169050820" duration="2625000" />
       <workItem from="1608725962968" duration="307000" />
+      <workItem from="1608726999090" duration="1697000" />
+      <workItem from="1608772730812" duration="1878000" />
+      <workItem from="1608859435097" duration="277000" />
+      <workItem from="1608859761730" duration="187000" />
+      <workItem from="1608859999377" duration="5052000" />
     </task>
+    <task id="LOCAL-00001" summary="更新配置文件">
+      <created>1608727164708</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608727164708</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,11 +150,17 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新配置文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

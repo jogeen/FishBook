@@ -25,12 +25,14 @@
             <constraints/>
             <properties>
               <text value="&lt;"/>
+              <toolTipText value="←"/>
             </properties>
           </component>
           <component id="eed58" class="javax.swing.JButton" binding="btnNext">
             <constraints/>
             <properties>
               <text value="&gt;"/>
+              <toolTipText value="→"/>
             </properties>
           </component>
           <component id="6f5e8" class="javax.swing.JButton" binding="btnLast">
